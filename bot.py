@@ -10,7 +10,7 @@ from aiogram.dispatcher.filters.state import StatesGroup, State
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
 
-bot = Bot(token="5575120171:AAFSYI3bLYv-JQ1-bHKg-WE1_9eN5sHiaQc")
+bot = Bot(token="TOKEN")
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 logging.basicConfig(level=logging.INFO)
